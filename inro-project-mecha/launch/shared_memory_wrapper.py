@@ -5,4 +5,8 @@ class SharedMemoryWrapper:
     def __init__(self):
         #add properties here
         self.example_array          = Array('i', [1, 2, 3, 4, 5])
-        self.running                = Value('i', 1)
+        
+        # Boolean to signal if the system is running
+        self.running = Value('b', True)  
+        # Boolean to alternate between ascend and descend
+        self.ascend = Value('b', True)   
