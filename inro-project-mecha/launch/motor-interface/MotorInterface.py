@@ -1,4 +1,4 @@
-from motors.MotorWrapper import Can_Wrapper
+from MotorWrapper import Can_Wrapper
 from multiprocessing import Process, Value
 import math
 import time

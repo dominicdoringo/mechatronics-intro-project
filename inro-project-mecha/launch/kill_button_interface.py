@@ -20,3 +20,4 @@ class Kill_Button_Interface:
                 if data[0] == 0:
                     self.running.value = False
                     print("DEAD")
+                    print("Test push")
